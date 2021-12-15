@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+header {
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-content {
+    margin-top: 10px;
+    text-transform: unset;  
+    font-weight: 400;
+}
+.nav-bar-content {
+    display: flex;
+    list-style: none;
+    margin-top: 52px;
+    justify-content: center;
+}
+.nav-bar-content li {
+    margin: 0px 20px;
+    font-family: 'Montserrat:wght400'
+}
+.gir-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 30px;
+    grid-gap:30px;
+}
+.grid-items {
+    display: flex;
+    flex-direction: column;
+}
+.logo-items {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.grid-items-money {
+    display: flex; 
+    margin: 20px 0px;
+}
+.coupon {
+    color: #a79d9d;
+}
+.grid-items-money .price {
+    flex-grow: 1;
+}
+.buy-course {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    color: #fff;
+}
+.buy-course:first-child {
+    background: linear-gradient(
+        90.06deg, #f86086 -4.45%, #fe8d77 104.12%);
+}
+.buy-course:nth-child(2) {
+    background: linear-gradient(
+90.06deg, #F62682 -4.45%, #6F5CF1 104.12%);
+}
+.buy-course:last-child {
+    background: linear-gradient(
+        90.06deg, #2cccff -4.45%, #22dfbf 104.12%);;
+}
+.block {
+    display: block;
+}
+.logo {
+    max-width: 100%;
+    height: 88px;
+}
