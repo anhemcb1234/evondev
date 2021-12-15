@@ -71,6 +71,9 @@ ul li {
     margin-top: 10px;
     color: #fff;
 }
+.buy-course:hover {
+    opacity: 0.8;
+}
 .buy-course:first-child {
     background: linear-gradient(
         90.06deg, #f86086 -4.45%, #fe8d77 104.12%);
