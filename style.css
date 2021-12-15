@@ -51,6 +51,9 @@ header {
     display: flex; 
     margin: 20px 0px;
 }
+ul li {
+    cursor: pointer;;
+}
 .coupon {
     color: #a79d9d;
 }
